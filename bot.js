@@ -4,7 +4,7 @@ var text = "javascript test"
 var i = 0;
 while (i<1) {
 console.log('Hello world');
-app.ajax({
+$.ajax({
     data: 'payload=' + JSON.stringify({
         "text": text
     }),
