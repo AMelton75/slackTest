@@ -7,11 +7,11 @@ console.log('Hello world');
 ajax({
     url: url,
     type: 'POST',
-    dataType: 'json',
-    data: 'payload=' + JSON.stringify({
+    data: JSON.stringify({
         "text": text
-    })
-    
+    }),
+    contentType: "application/json",
+    complete: function() {console.log('completed request successfully');}
     //processData: false,
 });
     i++;
