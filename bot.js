@@ -11,7 +11,7 @@ ajax({
     dataType: 'json',
     processData: false,
     type: 'POST',
-    url: "https://hooks.slack.com/services/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"
+    url: 'https://hooks.slack.com/services/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'
 });
     i++;
 }
