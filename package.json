@@ -2,12 +2,13 @@
   "name": "nodejs-practice",
   "version": "0.0.0",
   "description": "NodejsPractice",
-  "main": "bot.js",
+  "main": "app.js",
   "author": {
     "name": ""
   },
   "dependencies": {
     "jquery": "^3.3.1",
-    "node.ajax": "^2.4.3"
+    "node.ajax": "^2.4.3",
+    "xmlhttprequest": "^1.8.0"
   }
 }
