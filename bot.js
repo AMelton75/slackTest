@@ -5,11 +5,12 @@ var text = "<@U8REZ2U3U>"
 var i = 0;
 var j;
 if (i == 0) {
-    for (j = 0; j < 3; j++) {
+    for (j = 0; j < 10; j++) {
         console.log('Hello world');
         xhttp.open("POST", url, true);
         xhttp.setRequestHeader("Content-type", "application/json");
         xhttp.send(JSON.stringify({text: text}));
+        xhttp = new XMLHttpRequest();
     }
     i++;
 }
