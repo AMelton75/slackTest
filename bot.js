@@ -12,7 +12,7 @@ if (i == 0) {
             xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.send(JSON.stringify({text: text}));
             xhttp = new XMLHttpRequest();
-        }, 5000);
+        }, 60000);
     }
     i++;
 }
