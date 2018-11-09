@@ -13,10 +13,12 @@ var json = JSON.stringify(
   "pretext": joshP + " has the big gay",
   "title": rohan + ":" + austin + " has a quest for you",
   "text": ,
-    "attachments": [
+  "text": "_You Must Find_ *A Shrubbery!*"
+  "text": "One that is nice but not too expensive"
+  },
     {
-    "text": "_You Must Find_ *A Shrubbery!*"
-    "text": "One that is nice but not too expensive"
+      "text": "Then you must chop down a tree with a _herring_!"
+    }
   ]
 }
 );
