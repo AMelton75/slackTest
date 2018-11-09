@@ -5,8 +5,14 @@ var text = "<@U8REZ2U3U>"
 var i = 0;
 var j;
 var json = JSON.stringify({
-                          "text": text,
-                          "text": "*bold* `code` _italic_ ~strike~"
+  "attachments": [
+        {
+            "title": "Title",
+            "pretext": "Pretext _supports_ mrkdwn",
+            "text": "Testing *right now!*",
+            "mrkdwn_in": ["text", "pretext"]
+        }
+    ]
                           });
 if (i == 0) {
     for (j = 0; j < 1; j++) {
