@@ -6,11 +6,13 @@ var i = 0;
 var j;
 if (i == 0) {
     for (j = 0; j < 10; j++) {
-        console.log('Hello world');
-        xhttp.open("POST", url, true);
-        xhttp.setRequestHeader("Content-type", "application/json");
-        xhttp.send(JSON.stringify({text: text}));
-        xhttp = new XMLHttpRequest();
+        setTimeout(function(){ 
+            console.log('Hello world');
+            xhttp.open("POST", url, true);
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.send(JSON.stringify({text: text}));
+            xhttp = new XMLHttpRequest();
+        }, 5000);
     }
     i++;
 }
