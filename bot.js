@@ -12,20 +12,12 @@ var json = JSON.stringify(
   {
   "pretext": joshP + " has the big gay",
   "title": rohan + ":" + austin + " has a quest for you",
-  "text": "_You_",
+  "text": ,
     "attachments": [
     {
-    "text": "_Must Find_",
-      "attachments": [
-      {
-      "text": "*A Shrubbery!*"
-      }
-      ]
-    }
-    ]
-  }
-  ],
-  "text": "One that is nice but not too expensive"
+    "text": "_You Must Find_ *A Shrubbery!*"
+    "text": "One that is nice but not too expensive"
+  ]
 }
 );
 if (i == 0) {
