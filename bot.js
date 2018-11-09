@@ -8,10 +8,6 @@ var i = 0;
 var j;
 var json = JSON.stringify(
 {
-  "mrkdwn": false,
-  "text": "*This will not be bold.* It will be surrounded gloriously with stars."
-  "mrkdwn": true,
-  "text": "*This will not be bold.* It will be surrounded gloriously with stars."
   "attachments": [
   {
   "pretext": joshP + " has the big gay",
