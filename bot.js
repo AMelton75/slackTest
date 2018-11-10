@@ -10,7 +10,6 @@ var json = JSON.stringify(
 {
   "attachments": [
   {
-  "pretext": joshP + " has the big gay",
   "title": rohan + ":" + austin + " has a quest for you",
   "text": "_You Must Find_ *A Shrubbery!*",
   "text": "One that is nice but not too expensive"
