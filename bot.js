@@ -1,13 +1,17 @@
-pranked!!!!!XD;;:://\\
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-var xhttp = new XMLHttpRequest();
 var url = "https://hooks.slack.com/services/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";
 var joshP = "<@U8REZ2U3U>";
 var rohan = "<@U0KFF3WDS>";
 var austin = "<@U7529SGN4>";
-var i = 0;
-var j;
-var json = JSON.stringify(
+
+function Send(var json) {
+let xhttp = new XMLHttpRequest();
+xhttp.open("POST", url, true);
+xhttp.setRequestHeader("Content-type", "application/json");
+xhttp.send(json);
+}
+
+Send(
 {
   "attachments": [
   {
@@ -21,13 +25,5 @@ var json = JSON.stringify(
   ]
 }
 );
-if (i == 0) {
-    for (j = 0; j < 1; j++) {
-        console.log('Hello world');
-        xhttp.open("POST", url, true);
-        xhttp.setRequestHeader("Content-type", "application/json");
-        xhttp.send(json);
-        xhttp = new XMLHttpRequest();
-    }
-    i++;
+while (true) {
 }
