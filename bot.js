@@ -4,7 +4,7 @@ var joshP = "<@U8REZ2U3U>";
 var rohan = "<@U0KFF3WDS>";
 var austin = "<@U7529SGN4>";
 
-function Send(var json) {
+function Send(json) {
 let xhttp = new XMLHttpRequest();
 xhttp.open("POST", url, true);
 xhttp.setRequestHeader("Content-type", "application/json");
