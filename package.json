@@ -2,11 +2,12 @@
   "name": "nodejs-practice",
   "version": "0.0.0",
   "description": "NodejsPractice",
-  "main": "bot.js",
+  "main": "app.js",
   "author": {
     "name": ""
   },
   "dependencies": {
+    "@slack/events-api": "^2.1.1",
     "jquery": "^3.3.1",
     "node.ajax": "^2.4.3",
     "xmlhttprequest": "^1.8.0"
