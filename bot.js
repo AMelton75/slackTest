@@ -8,7 +8,7 @@ function Send(json) {
 let xhttp = new XMLHttpRequest();
 xhttp.open("POST", url, true);
 xhttp.setRequestHeader("Content-type", "application/json");
-json = JSON.stringify();
+json = JSON.stringify(json);
 xhttp.send(json);
 }
 
