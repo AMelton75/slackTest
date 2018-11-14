@@ -18,22 +18,3 @@ xhttp.send(json);
 slackEvents.on("message", (event) => {
   console.log(`Got challenge: ${event.challenge}`);
 });
-
-Send(
-{
-  "attachments": [
-  {
-  "title": rohan + ":" + austin + " has a quest for you",
-  "text": "_You Must Find_ *A Shrubbery!*",
-  "text": "One that is nice but not too expensive"
-  },
-    {
-      "text": "Then you must chop down a tree with a _herring_!"
-    }
-  ]
-}
-);
-
-for (let i=0;i<5;i++) {
- console.log(i);
-}
