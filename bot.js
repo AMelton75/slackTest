@@ -15,8 +15,8 @@ json = JSON.stringify(json);
 xhttp.send(json);
 }
 
-slackEvents.on('message', (event) => {
-  console.log(`Got challenge: ${event.challenge}`);
+slackEvents.on("message", (event) => {
+  console.log("Got challenge: ${event.challenge}");
 });
 
 Send(
