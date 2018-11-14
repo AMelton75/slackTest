@@ -26,5 +26,3 @@ Send(
   ]
 }
 );
-while (true) {
-}
